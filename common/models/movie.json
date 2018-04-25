@@ -1,0 +1,60 @@
+{
+  "name": "movie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "adult": {
+      "type": "boolean"
+    },
+    "backdrop_path": {
+      "type": "string"
+    },
+    "genre_ids": {
+      "type": [
+        "number"
+      ]
+    },
+    "id": {
+      "type": "Number",
+      "id": true,
+      "description": "Movie ID"
+    },
+    "original_title": {
+      "type": "string"
+    },
+    "original_language": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "string"
+    },
+    "popularity": {
+      "type": "number"
+    },
+    "poster_path": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "video": {
+      "type": "boolean"
+    },
+    "vote_average": {
+      "type": "number"
+    },
+    "vote_count": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

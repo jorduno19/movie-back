@@ -1,0 +1,38 @@
+{
+  "name": "favorite",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "score": {
+      "type": "string"
+    },
+    "progress": {
+      "type": "string"
+    },
+    "id": {
+      "type": "Number",
+      "id": true,
+      "description": "Movie ID"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "poster_path": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
